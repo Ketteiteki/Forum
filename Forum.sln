@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forum.Api", "Forum.Api\Forum.Api.csproj", "{809D3377-B88F-4EA7-854D-86E5C18D7A3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forum.BackendServices", "Forum.BackendServices\Forum.BackendServices.csproj", "{CAEDFEEB-3CD9-4433-8C28-8E157F029878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forum.Contracts", "Forum.Contracts\Forum.Contracts.csproj", "{D6ED796C-72BF-4539-B348-C66D2A5AE7E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{809D3377-B88F-4EA7-854D-86E5C18D7A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809D3377-B88F-4EA7-854D-86E5C18D7A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809D3377-B88F-4EA7-854D-86E5C18D7A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809D3377-B88F-4EA7-854D-86E5C18D7A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEDFEEB-3CD9-4433-8C28-8E157F029878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEDFEEB-3CD9-4433-8C28-8E157F029878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEDFEEB-3CD9-4433-8C28-8E157F029878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEDFEEB-3CD9-4433-8C28-8E157F029878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6ED796C-72BF-4539-B348-C66D2A5AE7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6ED796C-72BF-4539-B348-C66D2A5AE7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6ED796C-72BF-4539-B348-C66D2A5AE7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6ED796C-72BF-4539-B348-C66D2A5AE7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

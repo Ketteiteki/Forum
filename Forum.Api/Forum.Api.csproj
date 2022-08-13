@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.7" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.7" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.21.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Forum.BackendServices\Forum.BackendServices.csproj" />
+      <ProjectReference Include="..\Forum.Contracts\Forum.Contracts.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\posts\45febd7f-878a-4543-a541-05eac9c95c3b\86de00d2-c3ff-49f4-97f5-1b19f9c7f705.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\5579b9cc-11fe-49a6-858b-44c3ce57258c\5b957fa7-0cf1-4825-9234-5e86689e9a51.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\6db59f94-1986-4d1d-af0b-03fb0e6dae85\2cdbbb73-167f-44f0-912b-c87b7000c0ce.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\6e8ee213-cf87-4606-85af-7a17e2160449\cc3f43e0-ce60-4862-b691-475f177cabd6.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\81e35e35-beea-44a2-8342-0a6e47547822\6c56c355-dba7-4aff-bb5a-ef581b4144ff.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\971ab117-b0cc-4afe-86cc-278b5a4050d9\b70e4d4f-e898-492e-a2b2-96201645daa0.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\a75cbfb4-81ac-4851-af1f-e078c9bd2f92\e3e4a1f9-3405-4a29-96a4-85a367441c2e.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\dea7e1ab-28fd-4748-9b81-cb4a93e56e6e\9e067052-14a2-4795-b139-0a4b21933795.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\dec84bcc-175c-49c4-a547-f66ad4e737df\c622cc85-ed85-4dd1-b6cc-05579ddaaf3e.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\eddb479d-ad43-45c5-8735-29f0bf6480bb\f3cab6a0-6ab1-492a-a4e4-c4e1aac4d6c6.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\1cfc5393-613e-4f98-90e6-736da2008646\19824f03-0f74-426b-b9d7-4a1479bfed0f.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\2ec659e4-6b69-4cb7-a1ab-2c788d8245c7\7333aaf9-25d2-433b-a6f0-6c4f379c43e3.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\45b286a7-cb13-4f6c-b61b-c90908ff8c90\851f5b0f-b39c-4566-8669-17ce96230c47.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\46862709-f96c-43f1-abd8-da850a275eb8\c6ad2089-8e43-49ea-8ee8-4e5c5517e3d1.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\833ec03a-9c80-422c-8e8e-3f8a1dde28d0\e7353673-57f7-45a1-9edb-590cb5dfb5e7.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\e970ca43-3126-43a7-9323-859fed194c4e\fd7858a3-dabf-4423-8aab-7b8e015cd235.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\03f2f3ae-7e09-4ffd-aa02-f2a303ffbddb\599c96ef-6304-4549-b91c-3990004dd186.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\056b418a-a976-47dc-a592-3201ba1c72a3\b23b47a5-7170-41ad-bd1c-d4f1706c3d67.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\056b418a-a976-47dc-a592-3201ba1c72a3\fd126fed-7b5f-4e33-983b-b220ed09ddff.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\137f9f2c-8d87-4240-9e10-9102f9521e2c\ab754136-4c1a-4920-877b-7a953d8f8c31.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\1ed93361-fd4f-4279-92bd-83a764bc5c24\1a8e36c1-bdf6-44f3-9d72-2b5433dfe384.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\1ed93361-fd4f-4279-92bd-83a764bc5c24\8fd0e39e-fb59-4ec5-a3a8-a91300242329.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\1ed93361-fd4f-4279-92bd-83a764bc5c24\9fb4752e-2248-49b3-be79-c26327c59516.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\1ed93361-fd4f-4279-92bd-83a764bc5c24\a6347ce0-ec8f-4b2c-a327-b5242409f6bd.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\311aed28-5cc1-48c2-a2bb-54641d3a1d18\41cf9cda-802d-49bb-b96d-cd4f838c2190.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\311aed28-5cc1-48c2-a2bb-54641d3a1d18\cd504cd9-f0c6-428f-a0ab-6dcc9c4e855a.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\311aed28-5cc1-48c2-a2bb-54641d3a1d18\ddda4505-84c5-48d8-9f48-ec63933d6432.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\311aed28-5cc1-48c2-a2bb-54641d3a1d18\ecf3c723-0de2-4f2b-80e3-38d79152f932.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\4e28d2a3-e0d2-4e6f-9c72-79e2684562e5\e7077ca4-a452-4d0d-98f5-fced57b9a012.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\640cdb22-df20-42cf-a4b4-3fc085ae81ef\42a9ee44-4b80-45cd-bab1-1deb0acaccb0.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\bef775a5-ae70-4eeb-b0b5-0d61eb2b755a\13ac5e42-dcc7-4fc3-ba2d-7ccc411be206.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\posts\d1913e4c-9880-4936-aaba-a10ae2edaa2f\efee0a6f-acc3-4f23-baaf-e5785787f861.jpeg" />
+    </ItemGroup>
+
+</Project>

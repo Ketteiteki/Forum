@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "uKiuAiwJ9ZMkqoaeuLOvglGuS5kgCRv+ibB+SwWKoBg=",
+  "Source": "Forum.Api",
+  "BasePath": "_content/Forum.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Forum.Api\\wwwroot",
+      "Source": "Forum.Api",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Forum\\Forum.Api\\wwwroot\\",
+      "BasePath": "_content/Forum.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
